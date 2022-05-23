@@ -1,0 +1,79 @@
+/* default */
+body, html {
+    background-color: lightsalmon;
+}
+
+.keys {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 4em;
+}
+
+.key-box {
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    text-align: center;
+    height: 3em;
+}
+
+/* make the app responsive */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    margin-top: 3em;
+}
+
+.inputs > div {
+    margin: 1em;
+}
+
+.inputs > div > input {
+    height: 3em;
+    width: max-content;
+}
+
+/* my colors for weekdays */
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.row {
+    display: flex;
+}
+
+.row > div {
+    padding: 1em;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* smaller screen */
+@media screen and (max-width: 688px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .display table td {
+        padding: 0.5em;
+    }
+    .key-box {
+        height: 2.8em;
+    }
+    .inputs {
+        flex-direction: column;
+    }
+}
