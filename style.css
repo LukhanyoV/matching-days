@@ -39,18 +39,6 @@ body, html {
     width: max-content;
 }
 
-/* my colors for weekdays */
-.green {
-    background-color: green;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.red {
-    background-color: red;
-}
 
 .row {
     display: flex;
@@ -76,4 +64,17 @@ body, html {
     .inputs {
         flex-direction: column;
     }
+}
+
+/* my colors for weekdays */
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
 }
